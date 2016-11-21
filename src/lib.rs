@@ -5,6 +5,8 @@
 #![feature(associated_consts)]
 #![no_std]
 #![cfg_attr(test, allow(unused_features))]
+#![crate_name = "x86"]
+#![crate_type = "lib"]
 
 #[macro_use]
 extern crate bitflags;
